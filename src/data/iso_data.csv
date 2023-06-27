@@ -1,0 +1,103 @@
+bit,name,format,representation
+1,Bitmap Indicator,,b 64
+2,Primary account number (PAN),LLVAR,n ..19
+3,Processing code,,n 6
+4,Amount transaction,,n 12
+5,Amount settlement,,n 12
+6,Amount cardholder billing,,n 12
+7,Date and time transmission,MMDDhhmmss,n 10
+8,Amount cardholder billing fee,,n 8
+9,Conversion rate settlement,,n 8
+10,Conversion rate cardholder billing,,n 8
+11,Systems trace audit number,,n 6
+12,Time local transaction,hhmmss,n 6
+13,Date local transaction,MMDD,n 4
+14,Date expiration,YYMM,n 4
+15,Date settlement,MMDD,n 4
+16,Date conversion,MMDD,n 4
+17,Date capture,MMDD,n 4
+18,Merchant type,,n 4
+19,Acquiring institution country code,,n 3
+20,Primary account number (PAN) extended country code,,n 3
+21,Forwarding institution country code,,n 3
+22,Point of service entry mode,,n 3
+23,Card sequence number,,n 3
+24,Function code,,n 3
+25,Point of service condition code,,n 2
+26,Point of service capture code,,n 2
+27,Authorisation identification response length,,n 1
+28,Amount transaction fee,,n 8
+29,Amount settlement fee,,n 8
+30,Amount transaction processing fee,,n 8
+31,Amount settlement processing fee,,n 8
+32,Acquiring institution identification code,LLVAR,n ..11
+33,Forwarding institution identification code,LLVAR,n ..11
+34,Primary account number extended,LLVAR,n ..28
+35,Track 2 data,LLVAR,z ..37
+36,Track 3 data,LLLVAR,z ..104
+37,Retrieval reference number,,an 12
+38,Authorization identification response,,an 6
+39,Response code,,an 2
+40,Service restriction code,,an 3
+41,Card acceptor terminal identification,,ans 8
+42,Card acceptor identification code,,ans 15
+43,Card acceptor name/location,,ans 40
+44,Additional response data,LLVAR,an ..25
+45,Track 1 data,LLVAR,an ..76
+46,Additional data ISO,LLLVAR,an ..999
+47,Additional data national,LLLVAR,an ..999
+48,Additional data private,LLLVAR,an ..999
+49,Currency code transaction,,an 3
+50,Currency code settlement,,an 3
+51,Currency code card holder billing,,a 3
+52,Personal identification number (PIN) data,,b 16
+53,Security related control information,,n 18
+54,Additional amounts,LLLVAR,an ..120
+55-56,Reserved for ISO use,LLLVAR,ans ..999
+57-59,Reserved for national use,LLLVAR,ans ..999
+60-63,Reserved for private use,LLLVAR,ans ..999
+64,Message authentication code (MAC) field,,b 16
+65,Reserved for ISO use,,
+66,Settlement code,,n 1
+67,Extended payment code,,n 2
+68,Receiving institution country code,,n 3
+69,Settlement institution country code,,n 3
+70,Network management information code,,n 3
+71,Message number,,n 4
+72,Data record,LLLVAR,ans ..999
+73,Date action,YYMMDD,n 6
+74,Credits number,,n 10
+75,Credits reversal number,,n 10
+76,Debits number,,n 10
+77,Debits reversal number,,n 10
+78,Transfer number,,n 10
+79,Transfer reversal number,,n 10
+80,Inquiries number,,n 10
+81,Authorisations number,,n 10
+82,Credits processing fee amount,,n 12
+83,Credits transaction fee amount,,n 12
+84,Debits processing fee amount,,n 12
+85,Debits transaction fee amount,,n 12
+86,Credits amount,,n 15
+87,Credits reversal amount,,n 15
+88,Debits amount,,n 15
+89,Debits reversal amount,,n 15
+90,Original data elements,,n 42
+91,File update code,,an 1
+92,File security code,,n 2
+93,Response indicator,,n 5
+94,Service indicator,,an 7
+95,Replacement amounts,,an 42
+96,Message security code,,an 8
+97,Amount net settlement,,n 16
+98,Payee,,ans 25
+99,Settlement institution identification code,LLVAR,n ..11
+100,Receiving institution identification code,LLVAR,n ..11
+101,File name,LLVAR,ans ..99
+102,Account identification 1,LLVAR,ans ..28
+103,Account identification 2,LLVAR,ans ..28
+104,Transaction description,LLLVAR,ans ..999
+105-111,Reserved for ISO use,LLLVAR,ans ..999
+112-119,Reserved for national use,LLLVAR,ans ..999
+120-127,Reserved for private use,LLLVAR,ans ..999
+128,Message authentication code (MAC) field,,b 64
